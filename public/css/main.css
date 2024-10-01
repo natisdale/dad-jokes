@@ -1,0 +1,49 @@
+html { 
+    text-align: center;
+    background-color: aliceblue;
+}
+body {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    min-width: 30rem;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 { 
+    padding: 20% 0%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+form > input {
+    align-self: center;
+    width: 20rem;
+    padding: 2%;
+    margin: 2%;
+}
+
+form > button {
+    background-color: darkblue;
+    color: white;
+    margin: 1rem;
+    width: 22rem;
+    font-size: 2rem;
+    padding: 2%;
+}
+
+p {
+    position: relative;
+    top: 25%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

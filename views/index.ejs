@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad Jokes</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and screen  and (min-width: 1025px)" href="css/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 801px) and (max-width: 1024px)" href="css/tablet.css">
+</head>
+<body>
+    <h1>Dad Joke Generator</h1>
+    
+    <form action="/" id="form" class="form" method="POST">
+        <label for="searchTerm">Type the first word that pops into your head</label>
+        <input id="searchTerm" name="searchTerm"></input>
+        <button type="submit" class="form-submit">Make Me Laugh</button>
+    </form>
+    <% if (locals.joke) { %>
+        <p><%= joke %></p>
+    <% } %>
+</body>
+</html>
